@@ -33,7 +33,7 @@ c.proxfier设置chopper的代理为charles提供的127.0.0.1:8889
 d.在chopper中配置好数据库连接参数并连接数据库
 e.在chopper连上数据库后随便双击某个数据库的某个表
 f.将e步骤在charles中抓取的包整理下存放在本地,整理的格式在代码中有示例,需要提供header和post两份数据,示例文件如下
-link
+link:https://github.com/3xp10it/xdump
 g.运行python3 xdump.py
 
 ```
