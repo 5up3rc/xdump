@@ -1,0 +1,7 @@
+Cache-Control:no-cache
+X-Forwarded-For:xxx.xxx.xxx.xxx[这里如果chopper中没有抓到这个参数不要这个参数也没关系]
+Referer: http://www.abc.com[这里对应webshell修改]
+Content-Type:application/x-www-form-urlencoded
+User-Agent:Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)
+Connection:keey-alive
+Accept:*/*
