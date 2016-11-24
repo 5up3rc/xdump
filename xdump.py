@@ -32,7 +32,8 @@ from exp10it import get_input_intime
 
 #global count, everyQueryCount,countOfTableDict
 #Attention!!!如果一次没有dump完意外中断了,下一次继续dump的时候要改变代码中的下面的count数,并要保证
-#start=everyQueryCount*count+1为继续dump的起始点的值[eg.每次查询为200,则要保证200*count+1=新起点dump处]
+#start=everyQueryCount*count+1为继续dump的起始点的值[eg.每次查询为200,则要保证200*count+1=新起点dump处],运行之前只需要改count
+
 count =0
 start=0
 everyQueryCount = 0
