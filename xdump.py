@@ -25,6 +25,7 @@ import re
 import base64
 import sys
 import os
+os.system("pip3 install exp10it -U --no-cache-dir")
 from exp10it import get_http_domain_from_url
 from exp10it import get_random_header
 from exp10it import post_requests
